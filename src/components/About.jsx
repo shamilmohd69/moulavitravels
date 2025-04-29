@@ -23,7 +23,6 @@ const About = () => {
                                 <h3>Expert manpower solutions and visa services for a global workforce.</h3>
 
                             </div>
-                            {/* Best Immigration Consultants */}
                         </div>
                         <div className='flex gap-2  text-[#371275] '>
                             <img src="/tick.png" alt="" className='h-8 w-8 object-cover' />
@@ -32,10 +31,17 @@ const About = () => {
                                 <h3>Trusted immigration consultants for a stress-free experience.</h3>
 
                             </div>
-                            {/* Best Immigration Consultants */}
+                        </div>
+                        <div className='flex gap-2  text-[#371275] items-center'>   
+                            <a href="" className='bg-[#371275] text-[#FFBD05] font-[550] py-3 rounded px-5'>MORE ABOUT US</a>
+                            <a href="" className='font-[550] text-xl py-3 '>Contact Agent</a>
                         </div>
                     </div>
+
                 </div>
+                    <div className='flex flex-col md:flex-row justify-center items-center mt-10'>
+                        <h1 className={'text-[#371275] text-lg md:text-3xl font-semibold mt-3' + ' ' + inknut.className}>BAAKKI NAALE 💤💤💤💤</h1>
+                    </div>
             </div>
         </div>
     )
