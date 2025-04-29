@@ -20,12 +20,12 @@ const Hero = () => {
             JOURNEY WITH FAITH, EXPLORE <br />  WITH WONDER
           </h1>
           <h1 className='mt-4 mb-10 md:text-3xl font-semibold text-black'>Book Your Ziyara Now, Let Us guide You Home.</h1>
-          <a href="" className='bg-[#FFBD05]/95 text-[#371275] font-[550] px-4 py-2 rounded md:px-8  md:text-2xl'>Book Now</a>
+          <a href="" className='bg-[#FFBD05]/95 text-[#371275] font-[550] py-3 rounded px-10  md:text-2xl'>Book Now</a>
         </div>
-        <div className='w-full py-5 bg-[#FFBD05]/70 flex justify-around mt-5'>
-          <h3 className='text-white font-semibold text-sm md:text-2xl'>MADEENA ZIYARA</h3>
-          <h3 className='text-white font-semibold text-sm md:text-2xl'>JEDDAH SHARAFIYA</h3>
-          <h3 className='text-white font-semibold text-sm md:text-2xl'>TAIF TOUR</h3>
+        <div className='w-full py-5 bg-[#FFBD05]/80 flex justify-around mt-5 text-white'>
+          <h3 className=' font-semibold text-sm md:text-2xl'>MADEENA ZIYARA</h3>
+          <h3 className=' font-semibold text-sm md:text-2xl'>JEDDAH SHARAFIYA</h3>
+          <h3 className=' font-semibold text-sm md:text-2xl'>TAIF TOUR</h3>
         </div>
       </div>
     </div>
