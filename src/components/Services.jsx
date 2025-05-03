@@ -56,7 +56,7 @@ const Services = () => {
             <h1 className='font-semibold'>1000+ <span className='font-normal'>Our client in the world</span></h1>
             <img src="/Group 9.png" alt="" className='object-cover w-[150px]' />
           </div>
-          <img src="/Train1.png" alt="" className=' md:w-[550px] object-contain'  />
+          <img src="/train1.png" alt="" className=' md:w-[550px] object-contain'  />
         </div>
 
       </div>
