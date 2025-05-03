@@ -45,6 +45,21 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <div className='flex flex-col md:flex-row md:justify-between mt-5 gap-10 '>
+        <div className='flex items-center'>
+          <img src="/Bus.png" alt="" className='w-1/2  md:w-[350px] object-contain' />
+          <h1 className='text-[#371275] text-xl md:text-3xl font-semibold'>FROM
+            ACCOMODATION TO ACTIVITIES - <br /> <span className='text-white'>WE COVER IT  ALL.</span> </h1>
+        </div>
+        <div className='flex flex-col '>
+          <div className='text-[#371275] flex md:flex-col-reverse md:justify-center items-center md:gap-3 text-2xl px-3 mt-3'>
+            <h1 className='font-semibold'>1000+ <span className='font-normal'>Our client in the world</span></h1>
+            <img src="/Group 9.png" alt="" className='object-cover w-[150px]' />
+          </div>
+          <img src="/Train1.png" alt="" className=' md:w-[550px] object-contain'  />
+        </div>
+
+      </div>
     </div>
   )
 }

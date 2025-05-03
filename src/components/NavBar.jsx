@@ -3,8 +3,10 @@ import Image from 'next/image'
 
 const NavBar = () => {
     return (
-        <div className='flex justify-between items-center bg-[#371275]/80 text-black py-4 px-5 fixed top-0 left-0 right-0 z-50 backdrop-blur-md'>
-            <div className='text-2xl font-bold'>Mo</div>
+        <div className='flex justify-between items-center bg-[#371275]/80 text-black py-2 md:py-4 px-5 fixed top-0 left-0 right-0 z-50 backdrop-blur-md'>
+            <div className='text-2xl font-bold'>
+                <img src="/Navlogo.png" alt="" className='w-15 h-15' />
+            </div>
             <div className=' space-x-4 hidden md:flex'>
                 <a href="#" className='text-[#FFBD05] hover:text-[#ffbc05cc] font-semibold'>Home</a>
                 <a href="#" className='text-[#FFBD05] hover:text-[#ffbc05cc] font-semibold'>About Us</a>
